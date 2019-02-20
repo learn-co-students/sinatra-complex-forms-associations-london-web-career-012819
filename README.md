@@ -498,3 +498,19 @@ Make sure you run the tests to check your work.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/sinatra-complex-forms-associations'>Sinatra Complex Forms Associations</a> on Learn.co and start learning to code for free.</p>
 
+# Pets Controller
+##  new action
+  - [ ]  can visit '/pets/new'
+  - [ ]      loads form to create a new pet
+  - [ ]      has a form with a checkbox for existing owners
+  - [ ]      has a field for creating a new owner
+  - [ ]      creates a new pet and associates an existing owner (FAILED - 1)
+  - [ ]      creates a new pet and a new owner (FAILED - 2)
+  - [ ]      redirects to '/pets/:id' after form submissions (FAILED - 3)
+
+## edit action
+  - [ ]      can visit '/owners/:id/edit'
+  - [ ]      loads form to edit a pet and his owner (FAILED - 4)
+  - [ ]      edit's the pet's name (FAILED - 5)
+  - [ ]      edit's the pet's owner with an existing owner (FAILED - 6)
+  - [ ]      edit's the pet's owner with a new owner (FAILED - 7)
